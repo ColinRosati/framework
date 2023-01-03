@@ -319,7 +319,7 @@ importers:
       unbuild: ^1.0.2
       unctx: ^2.1.1
       unimport: ^1.1.0
-      untyped: ^1.2.0
+      untyped: ^1.2.1
     dependencies:
       '@nuxt/schema': link:../schema
       c12: 1.1.0
@@ -338,7 +338,7 @@ importers:
       semver: 7.3.8
       unctx: 2.1.1
       unimport: 1.1.0
-      untyped: 1.2.0
+      untyped: 1.2.1
     devDependencies:
       '@types/lodash.template': 4.5.1
       '@types/semver': 7.3.12
@@ -451,7 +451,7 @@ importers:
       unhead: ^1.0.14
       unimport: ^1.1.0
       unplugin: ^1.0.1
-      untyped: ^1.2.0
+      untyped: ^1.2.1
       vue: 3.2.45
       vue-bundle-renderer: ^1.0.0
       vue-devtools-stub: ^0.1.0
@@ -496,7 +496,7 @@ importers:
       unhead: 1.0.14
       unimport: 1.1.0
       unplugin: 1.0.1
-      untyped: 1.2.0
+      untyped: 1.2.1
       vue: 3.2.45
       vue-bundle-renderer: 1.0.0
       vue-devtools-stub: 0.1.0
@@ -526,7 +526,7 @@ importers:
       ufo: ^1.0.1
       unbuild: ^1.0.2
       unimport: ^1.1.0
-      untyped: ^1.2.0
+      untyped: ^1.2.1
       vite: ^4.0.4
     dependencies:
       c12: 1.1.0
@@ -541,7 +541,7 @@ importers:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.1.0
-      untyped: 1.2.0
+      untyped: 1.2.1
     devDependencies:
       '@types/lodash.template': 4.5.1
       '@types/semver': 7.3.12
@@ -1067,8 +1067,8 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/standalone/7.20.6:
-    resolution: {integrity: sha512-u5at/CbBLETf7kx2LOY4XdhseD79Y099WZKAOMXeT8qvd9OSR515my2UNBBLY4qIht/Qi9KySeQHQwQwxJN4Sw==}
+  /@babel/standalone/7.20.11:
+    resolution: {integrity: sha512-WUPlwwXFk3iViGE7QFVVp423eVtT+eoXu1940Xu4QJgqgHBF6WWtlwO1Ip5rIWQnp7OHrGdwrwKLtLhUVfOZbA==}
     engines: {node: '>=6.9.0'}
 
   /@babel/template/7.20.7:
@@ -1095,15 +1095,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-
-  /@babel/types/7.20.5:
-    resolution: {integrity: sha512-c9fst/h2/dcF7H+MJKZ2T0KjEQ8hY/BNnDk/H3XY8C4Aw/eWQXWn/lWntHF9ooUBnGmEvbfGrTgLWc+um0YDUg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.19.4
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
-    dev: false
 
   /@babel/types/7.20.7:
     resolution: {integrity: sha512-69OnhBxSSgK0OzTJai4kyPDiKTIe3j+ctaHdIGVbRahTLAT7L3R9oeXHC2aVSuGYt3cVnoAMDmOCgJ2yaiLMvg==}
@@ -8174,7 +8165,7 @@ packages:
       rollup-plugin-dts: 5.0.0_nv3cvulfrssbbv5jon74ek7f7i
       scule: 1.0.0
       typescript: 4.9.4
-      untyped: 1.0.0
+      untyped: 1.2.1
     transitivePeerDependencies:
       - sass
       - supports-color
@@ -8366,27 +8357,15 @@ packages:
       - supports-color
       - utf-8-validate
 
-  /untyped/1.0.0:
-    resolution: {integrity: sha512-aBeR3Z51038d7zVzsNShYEdO7u/VCp5R17fxpPXlD2QvG9g6uVJ+JM+zMJ7KFPIt1BNf3I6bU6PhAlsAFkIfdA==}
+  /untyped/1.2.1:
+    resolution: {integrity: sha512-hEtBC6MvqXLEEpx5ItPhnpgHIf3hRP310IYHj7N3D5zjdLJnmJNsGRDFbovk6DM2dekF/OBWuxDr0b6479eUkA==}
     dependencies:
       '@babel/core': 7.20.7
-      '@babel/standalone': 7.20.6
+      '@babel/standalone': 7.20.11
       '@babel/types': 7.20.7
       scule: 1.0.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /untyped/1.2.0:
-    resolution: {integrity: sha512-nG0A55YEhUU5UCEM+nhIhCVkA8a4L1spIVtzO0937WDjEA6jrKpu184O2K9iv5UuJNHnwhu+Q3TXiSJh/JrjlQ==}
-    dependencies:
-      '@babel/core': 7.20.5
-      '@babel/standalone': 7.20.6
-      '@babel/types': 7.20.5
-      scule: 1.0.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /update-browserslist-db/1.0.9_browserslist@4.21.4:
     resolution: {integrity: sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==}
